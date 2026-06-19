@@ -1,0 +1,18 @@
+[project]
+name = "oauth_practice"
+version = "0.1.0"
+description = "FastAPI OAuth Practice project"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "authlib",
+    "itsdangerous",
+    "requests",
+    "python-dotenv>=1.2.1",
+    "httpx>=0.28.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

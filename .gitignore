@@ -1,0 +1,11 @@
+.env
+.venv
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+ENV/
+oauth_practice.egg-info/
+*.lock
+.env
